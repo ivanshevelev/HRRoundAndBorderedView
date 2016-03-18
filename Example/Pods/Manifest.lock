@@ -1,0 +1,14 @@
+PODS:
+  - HRRoundAndBorderedView (0.1.0)
+
+DEPENDENCIES:
+  - HRRoundAndBorderedView (from `../`)
+
+EXTERNAL SOURCES:
+  HRRoundAndBorderedView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HRRoundAndBorderedView: 08927e23e64f5c6120b084ecd52315c40114f3ea
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,25 @@
+{
+  "name": "HRRoundAndBorderedView",
+  "version": "0.1.0",
+  "summary": "A short description of HRRoundAndBorderedView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HRRoundAndBorderedView",
+  "license": "MIT",
+  "authors": {
+    "Ivan Shevelev": "vanujkee@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HRRoundAndBorderedView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HRRoundAndBorderedView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
