@@ -24,7 +24,7 @@ pod try "HRRoundAndBorderedView"
 
 ## Requirements
 
-iOS 6.0 or greater.
+iOS 8.0 or greater.
 
 ## Installation
 
