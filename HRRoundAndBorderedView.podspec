@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "HRRoundAndBorderedView"
-s.version          = "1.1"
+s.version          = "1.2"
 s.summary          = "UIView category."
 
 s.description      = "UIView category for update view's layer properties: borderColor, borderWidth and cornerRadius. Also can't be changed from Interface Builder 'cause properties is IBInspectable."
