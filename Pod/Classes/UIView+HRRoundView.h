@@ -10,8 +10,19 @@
 
 @interface UIView (HRRoundView)
 
+/**
+ *  Color of the view's border. View.layer.borderColor inside.
+ */
 @property (nonatomic, strong) IBInspectable UIColor *hrBorderColor;
+
+/**
+ *  Width of the view's border. View.layer.borderWidth inside.
+ */
 @property (nonatomic) IBInspectable CGFloat hrBorderWidth;
+
+/**
+ *  Radius of the view's corners. View.layer.cornerRadius inside.
+ */
 @property (nonatomic) IBInspectable CGFloat hrCornerRadius;
 
 @end
