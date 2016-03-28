@@ -7,28 +7,43 @@
 //
 
 @import XCTest;
+#import <HRRoundAndBorderedView/UIView+HRRoundView.h>
 
 @interface Tests : XCTestCase
+
+@property (nonnull, nonatomic, strong) UIView *testView;
 
 @end
 
 @implementation Tests
 
-- (void)setUp
-{
+- (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.testView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
+- (void)testBorderColor {
+    UIColor *bordedColor = [UIColor redColor];
+    CGColorRef colorRef = bordedColor.CGColor;
+    self.testView.hrBorderColor = bordedColor;
+    XCTAssert(CGColorEqualToColor(self.testView.hrBorderColor.CGColor, colorRef));
+    XCTAssert(CGColorEqualToColor(self.testView.layer.borderColor, colorRef));
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+
+- (void)testBorderWidth {
+    CGFloat borderWidth = 5.f;
+    self.testView.hrBorderWidth = borderWidth;
+    XCTAssert(self.testView.hrBorderWidth == borderWidth);
+    XCTAssert(self.testView.layer.borderWidth == borderWidth);
+}
+
+
+- (void)testCornerRadius {
+    CGFloat cornerRadius = 5.f;
+    self.testView.hrCornerRadius = cornerRadius;
+    XCTAssert(self.testView.hrCornerRadius == cornerRadius);
+    XCTAssert(self.testView.layer.cornerRadius == cornerRadius);
 }
 
 @end
