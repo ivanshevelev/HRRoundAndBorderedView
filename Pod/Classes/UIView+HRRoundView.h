@@ -13,7 +13,7 @@
 /**
  *  Color of the view's border. View.layer.borderColor inside.
  */
-@property (nonatomic, strong) IBInspectable UIColor *hrBorderColor;
+@property (nonatomic, strong, nonnull) IBInspectable UIColor *hrBorderColor;
 
 /**
  *  Width of the view's border. View.layer.borderWidth inside.
