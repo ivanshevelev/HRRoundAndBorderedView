@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/HRRoundAndBorderedView.svg?style=flat)](http://cocoapods.org/pods/HRRoundAndBorderedView)
 [![Platform](https://img.shields.io/cocoapods/p/HRRoundAndBorderedView.svg?style=flat)](http://cocoapods.org/pods/HRRoundAndBorderedView)
 
-UIView category for update view's layer properties: borderColor, borderWidth and cornerRadius. Also can't be changed from Interface Builder 'cause properties is IBInspectable.
+UIView category for update view's layer properties: borderColor, borderWidth and cornerRadius. Also can be changed from Interface Builder 'cause properties is IBInspectable.
 
 ## Usage
 
@@ -37,7 +37,7 @@ pod "HRRoundAndBorderedView"
 
 ## Author
 
-Ivan Shevelev, ivan.shevelev@sibers.com
+Ivan Shevelev, vanujkee@icloud.com
 
 ## License
 
