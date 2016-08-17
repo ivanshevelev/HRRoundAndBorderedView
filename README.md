@@ -11,7 +11,7 @@ UIView category for update view's layer properties: borderColor, borderWidth and
 Change this properties programmatically or in Interface Buider.
 
 ```objective-c
-@property (nonatomic, strong) IBInspectable UIColor *hrBorderColor;
+@property (nonatomic, strong, nonnull) IBInspectable UIColor *hrBorderColor;
 @property (nonatomic) IBInspectable CGFloat hrBorderWidth;
 @property (nonatomic) IBInspectable CGFloat hrCornerRadius;
 ```
